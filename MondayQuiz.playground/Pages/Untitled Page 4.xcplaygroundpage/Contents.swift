@@ -8,6 +8,21 @@ Write a function that prints the numbers from 1 to 100. But for multiples of thr
 
 import Foundation
 
+var numbers = 1...100
+
+for i in 1...100 {
+    switch (i % 3 == 0, i % 5 == 0) {
+    case (true, false):
+        print ("Dev")
+    case (false, true):
+        print ("Mountain")
+    case (true, true):
+        print("DevMountain")
+        
+    default: print (i)
+        
+    }
+}
 
 
 //: [Previous](@previous)

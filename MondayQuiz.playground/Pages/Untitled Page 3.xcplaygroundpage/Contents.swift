@@ -12,8 +12,25 @@ Print all of the properties. Unwrap the isStreetLegal optional. If it is street 
 
 import Foundation
 
+class Car {
+    let make: String
+    let model: String
+    let year: Int
+    let topSpeed: Int
+    let isStreetLegal: Bool
+    
+    init (make: String, model: String, year: Int, topSpeed: Int, isStreetLegal: Bool) {
+        self.make = make
+        self.model = model
+        self.year = year
+        self.topSpeed = topSpeed
+        self.isStreetLegal = isStreetLegal
+        
+    }
+    
+}
 
-
+if let cars 
 
 //: [Previous](@previous)
 //: [Next](@next)

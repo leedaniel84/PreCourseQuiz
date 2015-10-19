@@ -11,5 +11,20 @@ Don't forget to call the function at the bottom
 import Foundation
 
 
+var isCoding = true
+
+func 
+
+
+
+
+
+
+
+
+
+
+
+
 //: [Previous](@previous)
 //: [Next](@next)

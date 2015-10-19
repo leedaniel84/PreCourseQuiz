@@ -12,7 +12,13 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+let ages = ["Daniel": 31, "Ross": 27, "Dan": 26, "Cheryl": 28, "Russell": 26]
 
+func nextYear: [String: Int] -> [String: Int] {
+    
+
+    
+}
 
 //: [Previous](@previous)
 //: [Next](@next)
